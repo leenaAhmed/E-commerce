@@ -25,9 +25,13 @@
                     <button type="submit"><i class="fa fa-search"></i></button>
                 </div>
                 <div class="cart">
+
                     <button type="button" id="cart-btn">
-                        <i class="fas fa-shopping-cart"></i>
-                        <span id="cart-count-info"> </span>
+                        <a href="#cart-page-section">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span id="cart-count-info"> </span>
+                        </a>
+
                     </button>
                 </div>
             </nav>
@@ -45,7 +49,7 @@
         </div>
     </section>
 
-    <section class="container content-section">
+    <section class="container content-section" id="cart-page-section">
         <h2 class="section-header">shopping Cart</h2>
         <div class="cart-row">
             <span class="cart-item cart-header cart-column">ITEM</span>
@@ -57,8 +61,10 @@
 
         </div>
         <div class="cart-total">
-            <strong class="cart-total-title">Total</strong>
-            <span class="cart-total-price">$0</span>
+            <h3>Total: </h3>
+            <span class="cart-total-price">0$</span>
+
+            <span id="cart-total-value"></span>
         </div>
     </section>
     <footer>

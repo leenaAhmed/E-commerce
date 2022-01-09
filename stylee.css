@@ -540,3 +540,7 @@ footer > .container {
   color: #333;
   font-size: 1.1em;
 }
+#cart-page-section {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
